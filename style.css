@@ -25,40 +25,7 @@ body {
     display: flex;
     justify-content: center;
 }
-.body-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    /* Ensures no overflow issues */
 
-    /* Neon Border and Animation */
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-}
-
-.body-container:before {
-    content: '';
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    z-index: -1;
-    background: linear-gradient(45deg, rgba(255, 0, 255, 0.75), rgba(0, 255, 255, 0.75), rgba(255, 0, 255, 0.75), rgba(0, 255, 255, 0.75));
-    background-size: 400% 400%;
-    animation: neonGlow 8s infinite linear;
-    filter: blur(8px);
-    border-radius: 20px;
-}
 .container {
     display: flex;
     flex-wrap: wrap;
