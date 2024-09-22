@@ -1,3 +1,3 @@
 # Arabic-Learn
 Arabic Alphabet Learn 2
-Link: https://riorahat.me/Arabic-Learn/
+Link: https://rio-rahat.github.io/Arabic-Learn/
